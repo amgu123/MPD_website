@@ -52,3 +52,26 @@ desktop.ini
 # served/deployed without running a build. Regenerate with `npm run build:css`.
 dist/
 build/
+target/
+
+# ---------------------------------------------------------------
+# Compiled / packaged artifacts
+# ---------------------------------------------------------------
+*.class
+*.py[cod]
+__pycache__/
+*.jar
+*.war
+*.app
+*.exe
+TEST*.xml
+
+# ---------------------------------------------------------------
+# Large media files
+# ---------------------------------------------------------------
+*.mp4
+*.mov
+*.avi
+*.flv
+*.wmv
+*.tiff
