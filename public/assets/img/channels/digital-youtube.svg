@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Digital and YouTube">
+  <rect width="320" height="200" fill="#F1ECE2"/>
+  <rect x="70" y="46" width="180" height="108" rx="10" fill="#111"/>
+  <rect x="78" y="54" width="164" height="92" rx="6" fill="#20262E"/>
+  <rect x="96" y="78" width="128" height="44" rx="10" fill="#FF0000"/>
+  <path d="M150 88v24l22-12z" fill="#ffffff"/>
+  <rect x="120" y="160" width="80" height="8" rx="4" fill="#111"/>
+</svg>

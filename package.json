@@ -1,0 +1,17 @@
+{
+  "name": "media-planet-website",
+  "version": "1.0.0",
+  "description": "Media Planet - India's media monitoring platform marketing site",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles/input.css -o ./public/assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/styles/input.css -o ./public/assets/css/styles.css --watch",
+    "serve": "http-server ./public -p 5173 -c-1",
+    "dev": "npm run build:css && npm run serve"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "@tailwindcss/forms": "^0.5.9",
+    "http-server": "^14.1.1"
+  }
+}

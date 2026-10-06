@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="News broadcast with mentions trend panel">
+  <rect width="480" height="360" fill="#141B24"/>
+  <!-- studio screens -->
+  <g opacity="0.5">
+    <rect x="28" y="28" width="90" height="60" rx="4" fill="#25313F"/>
+    <rect x="128" y="28" width="90" height="60" rx="4" fill="#25313F"/>
+    <rect x="228" y="28" width="90" height="60" rx="4" fill="#25313F"/>
+    <rect x="328" y="28" width="90" height="60" rx="4" fill="#25313F"/>
+  </g>
+  <!-- anchor -->
+  <circle cx="150" cy="150" r="40" fill="#3A4959"/>
+  <circle cx="150" cy="132" r="18" fill="#D7DEE6"/>
+  <path d="M118 176a32 26 0 0 1 64 0z" fill="#D7DEE6"/>
+  <!-- NEWS bug -->
+  <rect x="60" y="120" width="70" height="26" rx="3" fill="#C21C28"/>
+  <text x="95" y="139" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">NEWS</text>
+  <!-- mentions trend card -->
+  <g>
+    <rect x="196" y="150" width="256" height="176" rx="12" fill="#ffffff"/>
+    <text x="216" y="182" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1B2430">Mentions Trend</text>
+    <text x="380" y="176" font-family="Arial, sans-serif" font-size="11" fill="#9AA3AD">Total 1,246</text>
+    <text x="404" y="196" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#1FA463">+24%</text>
+    <!-- bars -->
+    <g fill="#2F6BE0">
+      <rect x="216" y="270" width="16" height="34" rx="2"/>
+      <rect x="242" y="256" width="16" height="48" rx="2"/>
+      <rect x="268" y="238" width="16" height="66" rx="2"/>
+      <rect x="294" y="262" width="16" height="42" rx="2"/>
+      <rect x="320" y="226" width="16" height="78" rx="2"/>
+      <rect x="346" y="248" width="16" height="56" rx="2" fill="#F5C518"/>
+    </g>
+    <!-- legend -->
+    <g font-family="Arial, sans-serif" font-size="10" fill="#5C5C5C">
+      <circle cx="380" cy="220" r="4" fill="#2F6BE0"/><text x="390" y="224">TV News</text>
+      <circle cx="380" cy="238" r="4" fill="#F5C518"/><text x="390" y="242">Social</text>
+      <circle cx="380" cy="256" r="4" fill="#1FA463"/><text x="390" y="260">Radio</text>
+      <circle cx="380" cy="274" r="4" fill="#C21C28"/><text x="390" y="278">YouTube</text>
+    </g>
+  </g>
+</svg>

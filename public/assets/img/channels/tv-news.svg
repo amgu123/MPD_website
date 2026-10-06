@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="TV News">
+  <rect width="320" height="200" fill="#1B2430"/>
+  <rect x="0" y="150" width="320" height="50" fill="#B01E28"/>
+  <rect x="14" y="162" width="90" height="12" rx="3" fill="#F5C518"/>
+  <rect x="14" y="180" width="180" height="8" rx="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="120" cy="90" r="34" fill="#3A4657"/>
+  <circle cx="120" cy="74" r="14" fill="#C8D0DA"/>
+  <path d="M96 108a24 20 0 0 1 48 0z" fill="#C8D0DA"/>
+  <rect x="180" y="40" width="120" height="80" rx="6" fill="#2A3646"/>
+  <path d="M196 96l22-22 16 14 20-26 26 34z" fill="#4B93E6" opacity="0.7"/>
+</svg>

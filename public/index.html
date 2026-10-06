@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media Planet — Track what matters across every media</title>
+  <meta name="description" content="Media Planet tracks TV News, Radio, Online News, YouTube and Social Media. Get accurate timestamps, captured evidence and actionable insights across India's media landscape." />
+  <meta name="theme-color" content="#0B1626" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preload" href="/assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+</head>
+
+<body>
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-ink focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="sticky top-0 z-40 border-b border-line/70 bg-white/90 backdrop-blur">
+    <div class="container-mp flex h-16 items-center justify-between gap-4">
+      <a href="/index.html" class="flex items-center gap-2.5" aria-label="Media Planet home">
+        <img src="/assets/img/logo.svg" alt="" width="36" height="36" class="h-9 w-9" />
+        <span class="text-lg font-extrabold tracking-tight">MEDIA PLANET</span>
+      </a>
+      <nav class="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <a href="/index.html" class="nav-link nav-link-active-underline" aria-current="page">Home</a>
+        <div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1" aria-haspopup="true" aria-expanded="false">
+            Solutions
+            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="invisible absolute left-1/2 top-full z-50 w-60 -translate-x-1/2 pt-3 opacity-0 transition-all group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="card overflow-hidden p-2">
+              <a href="/news-monitoring.html" class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-surface">News Monitoring</a>
+              <a href="/ad-monitoring.html" class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-surface">Ad Monitoring</a>
+              <a href="/news-translation.html" class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-surface">News Translation</a>
+            </div>
+          </div>
+        </div>
+        <a href="/media-landscape.html" class="nav-link">Media Landscape</a>
+        <a href="/resources.html" class="nav-link">Resources</a>
+        <a href="/about.html" class="nav-link">About</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#contact" class="btn-primary hidden sm:inline-flex">Get a Demo
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <button id="navToggle" type="button" class="btn-ghost h-10 w-10 !px-0 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="mobileNav" class="hidden border-t border-line bg-white lg:hidden" aria-label="Mobile">
+      <div class="container-mp flex flex-col py-3">
+        <a href="/index.html" class="nav-link py-2.5">Home</a>
+        <a href="/news-monitoring.html" class="nav-link py-2.5">News Monitoring</a>
+        <a href="/ad-monitoring.html" class="nav-link py-2.5">Ad Monitoring</a>
+        <a href="/news-translation.html" class="nav-link py-2.5">News Translation</a>
+        <a href="/media-landscape.html" class="nav-link py-2.5">Media Landscape</a>
+        <a href="/resources.html" class="nav-link py-2.5">Resources</a>
+        <a href="/about.html" class="nav-link py-2.5">About</a>
+        <a href="#contact" class="btn-primary mt-3">Get a Demo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO (dark, search) ===== -->
+    <section class="relative overflow-hidden bg-navy text-white">
+      <div class="absolute inset-0 opacity-30" style="background:radial-gradient(900px 400px at 20% 0%, #1C3252 0%, transparent 60%),radial-gradient(900px 400px at 90% 100%, #13233A 0%, transparent 55%);" aria-hidden="true"></div>
+      <div class="container-mp relative py-16 text-center lg:py-24">
+        <h1 class="mx-auto max-w-4xl text-4xl leading-[1.1] sm:text-5xl lg:text-6xl">
+          Track what matters<br class="hidden sm:block" />
+          <span class="text-accent">across every media</span>
+        </h1>
+        <p class="mx-auto mt-5 max-w-2xl text-base text-white/70 sm:text-lg">
+          TV News, Radio, Online News, YouTube and Social Media
+        </p>
+
+        <form class="mx-auto mt-9 flex max-w-2xl items-center gap-2 rounded-full bg-white p-1.5 shadow-soft" role="search" onsubmit="return false">
+          <span class="pl-4 text-muted" aria-hidden="true">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+          </span>
+          <label for="heroSearch" class="sr-only">Search media coverage</label>
+          <input id="heroSearch" type="search" placeholder="Infosys and Dividend" class="min-w-0 flex-1 border-0 bg-transparent text-ink placeholder:text-muted focus:ring-0" />
+          <button type="submit" class="btn-primary px-6 py-2.5">Search</button>
+        </form>
+
+        <div class="mt-5 flex flex-wrap items-center justify-center gap-2 text-sm text-white/60">
+          <span class="mr-1">Try examples:</span>
+          <button type="button" class="hero-example rounded-full border border-white/20 px-3 py-1 text-white/85 transition-colors hover:bg-white/10">Infosys and Dividend</button>
+          <button type="button" class="hero-example rounded-full border border-white/20 px-3 py-1 text-white/85 transition-colors hover:bg-white/10">Union Budget 2026</button>
+          <button type="button" class="hero-example rounded-full border border-white/20 px-3 py-1 text-white/85 transition-colors hover:bg-white/10">Google Gemini</button>
+          <button type="button" class="hero-example rounded-full border border-white/20 px-3 py-1 text-white/85 transition-colors hover:bg-white/10">Asian Games 2026</button>
+        </div>
+
+        <!-- source stats row -->
+        <ul class="mx-auto mt-12 grid max-w-4xl grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
+          <li class="flex flex-col items-center gap-2">
+            <span class="grid h-11 w-11 place-items-center rounded-full bg-brand-yellow text-ink"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="13" rx="2"/><path d="M8 21h8"/></svg></span>
+            <span class="text-sm font-semibold">TV News</span><span class="-mt-1 text-xs text-white/55">55+ Channels</span>
+          </li>
+          <li class="flex flex-col items-center gap-2">
+            <span class="grid h-11 w-11 place-items-center rounded-full bg-brand-yellow text-ink"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></span>
+            <span class="text-sm font-semibold">Online News</span><span class="-mt-1 text-xs text-white/55">500+ Portals</span>
+          </li>
+          <li class="flex flex-col items-center gap-2">
+            <span class="grid h-11 w-11 place-items-center rounded-full bg-brand-yellow text-ink"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v4M8 21h8"/></svg></span>
+            <span class="text-sm font-semibold">Radio</span><span class="-mt-1 text-xs text-white/55">Major FM</span>
+          </li>
+          <li class="flex flex-col items-center gap-2">
+            <span class="grid h-11 w-11 place-items-center rounded-full bg-brand-yellow text-ink"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg></span>
+            <span class="text-sm font-semibold">YouTube</span><span class="-mt-1 text-xs text-white/55">Videos &amp; Channels</span>
+          </li>
+          <li class="col-span-2 flex flex-col items-center gap-2 sm:col-span-1">
+            <span class="grid h-11 w-11 place-items-center rounded-full bg-brand-yellow text-ink"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></span>
+            <span class="text-sm font-semibold">Social Media</span><span class="-mt-1 text-xs text-white/55">X, Facebook, Instagram</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== TWO SOLUTION CARDS ===== -->
+    <section class="bg-white">
+      <div class="container-mp grid gap-6 py-12 lg:grid-cols-2 lg:py-16">
+        <!-- News Monitoring (dark) -->
+        <article class="relative overflow-hidden rounded-xl2 bg-ink p-7 text-white sm:p-9">
+          <div class="absolute inset-0 opacity-40" style="background:radial-gradient(500px 300px at 90% 10%, #1C3252 0%, transparent 60%);" aria-hidden="true"></div>
+          <div class="relative">
+            <p class="eyebrow eyebrow-light mb-3">News Monitoring</p>
+            <h2 class="text-2xl sm:text-3xl">Ek story. Kai platforms.<br/><span class="text-accent">Puri tracking.</span></h2>
+            <p class="mt-4 max-w-md text-sm text-white/70">
+              Track where your story is picked up across TV News, Radio, Online News, YouTube and Social Media.
+              Get complete visibility with accurate timestamps, captured evidence and easy-to-analyze reports.
+            </p>
+            <ul class="mt-6 flex flex-wrap gap-2 text-xs">
+              <li class="rounded-full bg-white/10 px-3 py-1.5">TV News</li>
+              <li class="rounded-full bg-white/10 px-3 py-1.5">Online News</li>
+              <li class="rounded-full bg-white/10 px-3 py-1.5">Radio</li>
+              <li class="rounded-full bg-white/10 px-3 py-1.5">YouTube</li>
+              <li class="rounded-full bg-white/10 px-3 py-1.5">Social Media</li>
+            </ul>
+            <a href="/news-monitoring.html" class="btn-primary mt-7">Explore News Monitoring
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Ad Monitoring (light) -->
+        <article class="card overflow-hidden p-7 sm:p-9">
+          <p class="eyebrow mb-3">Ad Monitoring</p>
+          <h2 class="text-2xl sm:text-3xl">Ab TV ho ya CTV,<br/>har airing ka <span class="text-accent">clear update.</span></h2>
+          <p class="mt-4 max-w-md text-sm text-muted">
+            Media Planet monitors ad execution across TV and CTV with complete clarity. Get accurate timestamps,
+            captured evidence and end-to-end campaign visibility across every screen.
+          </p>
+          <div class="mt-6 overflow-hidden rounded-xl border border-line">
+            <img src="/assets/img/hero/ad-monitoring.svg" alt="Living room TV playing a car ad with the ad monitoring dashboard" width="720" height="300" loading="lazy" decoding="async" class="aspect-[12/5] w-full object-cover" />
+          </div>
+          <a href="/ad-monitoring.html" class="btn-primary mt-7">Explore Ad Monitoring
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== STAT BAR ===== -->
+    <section id="landscape" class="bg-white pb-4">
+      <div class="container-mp">
+        <ul class="grid grid-cols-2 gap-4 rounded-xl2 border border-line bg-surface p-6 text-center sm:grid-cols-3 lg:grid-cols-6">
+          <li><span class="block text-lg font-extrabold">55+</span><span class="text-xs text-muted">TV News Channels</span></li>
+          <li><span class="block text-lg font-extrabold">500+</span><span class="text-xs text-muted">Online News Sources</span></li>
+          <li><span class="block text-lg font-extrabold">Major</span><span class="text-xs text-muted">FM Radio Stations</span></li>
+          <li><span class="block text-lg font-extrabold">YouTube &amp;</span><span class="text-xs text-muted">Social Media</span></li>
+          <li><span class="block text-lg font-extrabold">Real-Time</span><span class="text-xs text-muted">Updates</span></li>
+          <li><span class="block text-lg font-extrabold">Next-Day</span><span class="text-xs text-muted">Reports</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== WHY MEDIA PLANET ===== -->
+    <section id="about" class="bg-white">
+      <div class="container-mp grid gap-10 py-14 lg:grid-cols-2 lg:py-20">
+        <div>
+          <p class="eyebrow mb-5">Why Media Planet</p>
+          <h2 class="text-3xl leading-tight sm:text-4xl">Trusted media intelligence for a <span class="text-accent">more informed world.</span></h2>
+          <p class="mt-5 max-w-lg text-muted">
+            Media Planet helps brands, agencies, enterprises and institutions track what matters across traditional
+            and digital media. From news coverage to ad monitoring, we deliver accurate, timely and actionable insights.
+          </p>
+          <a href="#contact" class="btn-primary mt-7">Learn More About Us
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <dl class="space-y-7">
+          <div class="flex gap-4 border-b border-line pb-7">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/></svg></span>
+            <div><dt class="font-semibold">Complete Coverage</dt><dd class="mt-1 text-sm text-muted">Monitor TV, Radio, Online News, YouTube and Social Media from a single platform.</dd></div>
+          </div>
+          <div class="flex gap-4 border-b border-line pb-7">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></span>
+            <div><dt class="font-semibold">Accurate &amp; Timely</dt><dd class="mt-1 text-sm text-muted">Get precise timestamps, captured evidence and fast turnaround reports.</dd></div>
+          </div>
+          <div class="flex gap-4">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+            <div><dt class="font-semibold">Actionable Insights</dt><dd class="mt-1 text-sm text-muted">Turn media data into meaningful insights for better decisions and stronger impact.</dd></div>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== CTA BAND ===== -->
+    <section id="contact" class="bg-white pb-16">
+      <div class="container-mp">
+        <div class="relative overflow-hidden rounded-xl2 bg-navy px-7 py-10 text-white sm:px-10">
+          <div class="absolute inset-0 opacity-40" style="background:radial-gradient(700px 300px at 85% 120%, #1C3252 0%, transparent 60%);" aria-hidden="true"></div>
+          <div class="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            <div>
+              <p class="eyebrow eyebrow-light mb-3">Ready to see the bigger picture?</p>
+              <h2 class="text-2xl sm:text-3xl">Turn media coverage into<br/><span class="text-accent">meaningful insights.</span></h2>
+            </div>
+            <a href="mailto:hello@mediaplanet.example" class="btn-primary w-fit px-6 py-3 text-base">Get a Demo
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-ink text-white/80">
+    <div class="container-mp flex flex-col items-center justify-between gap-6 py-8 md:flex-row">
+      <a href="/index.html" class="flex items-center gap-2.5" aria-label="Media Planet home">
+        <img src="/assets/img/logo.svg" alt="" width="32" height="32" class="h-8 w-8" />
+        <span class="text-base font-extrabold text-white">MEDIA PLANET</span>
+      </a>
+      <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm" aria-label="Footer">
+        <a href="/index.html" class="hover:text-white">Home</a>
+        <a href="/news-monitoring.html" class="hover:text-white">News Monitoring</a>
+        <a href="/ad-monitoring.html" class="hover:text-white">Ad Monitoring</a>
+        <a href="/news-translation.html" class="hover:text-white">News Translation</a>
+        <a href="/media-landscape.html" class="hover:text-white">Media Landscape</a>
+        <a href="/resources.html" class="hover:text-white">Resources</a>
+        <a href="/about.html" class="hover:text-white">About</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#" aria-label="LinkedIn" class="grid h-9 w-9 place-items-center rounded-full bg-white/10 hover:bg-white/20"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.65 21 11 21 14.1V21h-4v-6.1c0-1.45-.03-3.32-2.02-3.32-2.02 0-2.33 1.58-2.33 3.21V21H9z"/></svg></a>
+        <a href="#" aria-label="X" class="grid h-9 w-9 place-items-center rounded-full bg-white/10 hover:bg-white/20"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5-6.6L5.3 22H2l8-9.2L1.5 2h6.9l4.6 6.1zm-2.4 18h1.7L7.6 3.8H5.8z"/></svg></a>
+        <a href="#" aria-label="YouTube" class="grid h-9 w-9 place-items-center rounded-full bg-white/10 hover:bg-white/20"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.4-.4-5a2.7 2.7 0 0 0-1.9-1.9C18.9 4.7 12 4.7 12 4.7s-6.9 0-8.7.4A2.7 2.7 0 0 0 1.4 7C1 8.6 1 12 1 12s0 3.4.4 5a2.7 2.7 0 0 0 1.9 1.9c1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4a2.7 2.7 0 0 0 1.9-1.9c.4-1.6.4-5 .4-5zM9.8 15.3V8.7l5.7 3.3z"/></svg></a>
+      </div>
+    </div>
+    <div class="container-mp border-t border-white/10 py-4 text-center text-xs text-white/50">
+      © <span id="year">2026</span> Media Planet. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Monitoring — Media Planet</title>
+  <meta name="description" content="Track where your story travels across TV News, Radio, Online News, YouTube and Social Media. One story, every platform, complete visibility." />
+  <meta name="theme-color" content="#0B1626" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preload" href="/assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+</head>
+<body>
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-ink focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="sticky top-0 z-40 border-b border-line/70 bg-white/90 backdrop-blur">
+    <div class="container-mp flex h-16 items-center justify-between gap-4">
+      <a href="/index.html" class="flex items-center gap-2.5" aria-label="Media Planet home">
+        <img src="/assets/img/logo.svg" alt="" width="36" height="36" class="h-9 w-9" />
+        <span class="text-lg font-extrabold tracking-tight">MEDIA PLANET</span>
+      </a>
+      <nav class="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <a href="/index.html" class="nav-link">Home</a>
+        <div class="group relative">
+          <button class="nav-link inline-flex items-center gap-1 nav-link-active-underline" aria-current="page" aria-haspopup="true" aria-expanded="false">
+            Solutions
+            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="invisible absolute left-1/2 top-full z-50 w-60 -translate-x-1/2 pt-3 opacity-0 transition-all group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+            <div class="card overflow-hidden p-2">
+              <a href="/news-monitoring.html" class="block rounded-lg bg-surface px-3 py-2 text-sm font-semibold">News Monitoring</a>
+              <a href="/ad-monitoring.html" class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-surface">Ad Monitoring</a>
+              <a href="/news-translation.html" class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-surface">News Translation</a>
+            </div>
+          </div>
+        </div>
+        <a href="/media-landscape.html" class="nav-link">Media Landscape</a>
+        <a href="/resources.html" class="nav-link">Resources</a>
+        <a href="/about.html" class="nav-link">About</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#contact" class="btn-primary hidden sm:inline-flex">Get a Demo
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <button id="navToggle" type="button" class="btn-ghost h-10 w-10 !px-0 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="mobileNav" class="hidden border-t border-line bg-white lg:hidden" aria-label="Mobile">
+      <div class="container-mp flex flex-col py-3">
+        <a href="/index.html" class="nav-link py-2.5">Home</a>
+        <a href="/news-monitoring.html" class="nav-link py-2.5">News Monitoring</a>
+        <a href="/ad-monitoring.html" class="nav-link py-2.5">Ad Monitoring</a>
+        <a href="/news-translation.html" class="nav-link py-2.5">News Translation</a>
+        <a href="/media-landscape.html" class="nav-link py-2.5">Media Landscape</a>
+        <a href="/resources.html" class="nav-link py-2.5">Resources</a>
+        <a href="/about.html" class="nav-link py-2.5">About</a>
+        <a href="#contact" class="btn-primary mt-3">Get a Demo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="bg-white">
+      <div class="container-mp grid items-center gap-10 py-12 lg:grid-cols-2 lg:py-16">
+        <div>
+          <p class="eyebrow mb-4">News Monitoring</p>
+          <h1 class="text-4xl leading-[1.1] sm:text-5xl">Ek story. Kai platforms.<br/><span class="text-accent">Puri tracking.</span></h1>
+          <p class="mt-5 max-w-xl text-muted">
+            One news story can travel across TV News, Radio, Online News, YouTube and Social Media. Media Planet helps
+            you track where the story appeared, how it evolved and what it means for your brand.
+          </p>
+          <a href="#contact" class="btn-primary mt-7 px-6 py-3 text-base">Request a Demo
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="overflow-hidden rounded-xl2 border border-line shadow-soft">
+          <img src="/assets/img/hero/news-monitoring.svg" alt="News broadcast tracked across TV, social media and news portals" width="720" height="540" fetchpriority="high" decoding="async" class="aspect-[4/3] w-full object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY NEWS MONITORING MATTERS ===== -->
+    <section class="border-y border-line bg-surface">
+      <div class="container-mp py-14 lg:py-20">
+        <div class="grid gap-8 lg:grid-cols-2 lg:items-start">
+          <div>
+            <p class="eyebrow mb-4">Why News Monitoring Matters</p>
+            <h2 class="text-3xl sm:text-4xl">Why News Monitoring <span class="text-accent">Matters</span></h2>
+          </div>
+          <p class="max-w-xl text-muted lg:pt-10">
+            News moves every second — across TV bulletins, ticker scrolls, online portals, YouTube clips, radio shows
+            and social conversations. A single story can appear in different formats, across multiple platforms, and
+            reach different audiences. For businesses, this means opportunities to gain visibility, as well as risks
+            that need to be managed.
+          </p>
+        </div>
+        <ul class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg></span>
+            <h3 class="mt-4 text-base">Complete visibility</h3>
+            <p class="mt-1.5 text-sm text-muted">Track your story across all key media platforms in one place.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20a6 6 0 0 1 12 0M14 20a5 5 0 0 1 7-4.5"/></svg></span>
+            <h3 class="mt-4 text-base">Understand context</h3>
+            <p class="mt-1.5 text-sm text-muted">See how the story is presented and how it evolves.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 3v18h18M7 14l3-3 3 2 5-6"/></svg></span>
+            <h3 class="mt-4 text-base">Make better decisions</h3>
+            <p class="mt-1.5 text-sm text-muted">Identify opportunities and risks early.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <h3 class="mt-4 text-base">Stay informed</h3>
+            <p class="mt-1.5 text-sm text-muted">Get the right information, at the right time.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== ONE STORY, MANY FORMS ===== -->
+    <section class="bg-white">
+      <div class="container-mp py-14 lg:py-20">
+        <p class="eyebrow mb-4">One story can appear in many forms</p>
+        <h2 class="text-3xl sm:text-4xl">One story can appear in <span class="text-accent">many forms</span></h2>
+        <ul class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+          <li class="group text-center">
+            <div class="overflow-hidden rounded-xl2 border border-line"><img src="/assets/img/forms/full-story.svg" alt="Full story on TV news" width="300" height="200" loading="lazy" decoding="async" class="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+            <span class="mt-2.5 block text-sm font-semibold">Full Story</span><span class="text-xs text-muted">In-depth coverage on TV</span>
+          </li>
+          <li class="group text-center">
+            <div class="overflow-hidden rounded-xl2 border border-line"><img src="/assets/img/forms/ticker.svg" alt="Ticker scroll update" width="300" height="200" loading="lazy" decoding="async" class="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+            <span class="mt-2.5 block text-sm font-semibold">Ticker / Scroll</span><span class="text-xs text-muted">Short mention in ticker</span>
+          </li>
+          <li class="group text-center">
+            <div class="overflow-hidden rounded-xl2 border border-line"><img src="/assets/img/forms/headline.svg" alt="News headline" width="300" height="200" loading="lazy" decoding="async" class="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+            <span class="mt-2.5 block text-sm font-semibold">Headline</span><span class="text-xs text-muted">As a top story or sectional</span>
+          </li>
+          <li class="group text-center">
+            <div class="overflow-hidden rounded-xl2 border border-line"><img src="/assets/img/forms/anchor.svg" alt="Anchor mention" width="300" height="200" loading="lazy" decoding="async" class="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+            <span class="mt-2.5 block text-sm font-semibold">Anchor Mentions</span><span class="text-xs text-muted">Brief mention during a bulletin</span>
+          </li>
+          <li class="group text-center">
+            <div class="overflow-hidden rounded-xl2 border border-line"><img src="/assets/img/forms/interview.svg" alt="Interview or byte" width="300" height="200" loading="lazy" decoding="async" class="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+            <span class="mt-2.5 block text-sm font-semibold">Interview / Byte</span><span class="text-xs text-muted">Quote from a spokesperson</span>
+          </li>
+          <li class="group text-center">
+            <div class="overflow-hidden rounded-xl2 border border-line"><img src="/assets/img/forms/regional.svg" alt="Regional language coverage" width="300" height="200" loading="lazy" decoding="async" class="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-105" /></div>
+            <span class="mt-2.5 block text-sm font-semibold">Regional Coverage</span><span class="text-xs text-muted">Regional language media</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PRACTICAL SITUATIONS ===== -->
+    <section class="bg-surface">
+      <div class="container-mp py-14 lg:py-20">
+        <p class="eyebrow mb-4">Practical situations where news monitoring makes a difference</p>
+        <h2 class="text-3xl sm:text-4xl">Practical situations where news monitoring<br class="hidden sm:block" /> <span class="text-accent">makes a difference</span></h2>
+        <ul class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v12H8l-4 4z"/></svg></span>
+            <h3 class="mt-4 text-base">After a press release</h3>
+            <p class="mt-1.5 text-sm text-muted">Know how your story is picked up, which platforms cover it and how it is being presented.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11v2a1 1 0 0 0 1 1h3l5 4V6L7 10H4a1 1 0 0 0-1 1zM16 9a4 4 0 0 1 0 6"/></svg></span>
+            <h3 class="mt-4 text-base">During a company announcement</h3>
+            <p class="mt-1.5 text-sm text-muted">Track real-time coverage across TV, online, radio and social to understand reach and response.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 3v18h18M7 15l4-4 3 3 5-6"/></svg></span>
+            <h3 class="mt-4 text-base">When competitors make a move</h3>
+            <p class="mt-1.5 text-sm text-muted">Stay informed about competitor news, market developments and industry conversations.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 4v6c0 4-3 7-8 8-5-1-8-4-8-8V7z"/></svg></span>
+            <h3 class="mt-4 text-base">When a policy or reputation issue begins</h3>
+            <p class="mt-1.5 text-sm text-muted">Get early visibility of emerging discussions and monitor how the story unfolds across media.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="bg-white">
+      <div class="container-mp py-14 lg:py-20">
+        <p class="eyebrow mb-4">How it works</p>
+        <h2 class="text-3xl sm:text-4xl">A simple process for <span class="text-accent">complete visibility</span></h2>
+        <ol class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <li class="relative card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h12l4 4v12H4z"/><path d="M8 11h8M8 15h5"/></svg></span>
+            <h3 class="mt-4 text-base">1. Tell us what matters</h3>
+            <p class="mt-1.5 text-sm text-muted">Share your key topics, brand names, competitors, industry keywords or specific events you want to track.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></span>
+            <h3 class="mt-4 text-base">2. We monitor</h3>
+            <p class="mt-1.5 text-sm text-muted">Our team tracks relevant coverage across TV News, Radio, Online News, YouTube and Social Media.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></span>
+            <h3 class="mt-4 text-base">3. Coverage is captured</h3>
+            <p class="mt-1.5 text-sm text-muted">We capture the story in all major formats — full stories, ticker mentions, headlines, interviews and more.</p>
+          </li>
+          <li class="card p-6">
+            <span class="icon-chip"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg></span>
+            <h3 class="mt-4 text-base">4. You review one clearer view</h3>
+            <p class="mt-1.5 text-sm text-muted">Get a consolidated, easy-to-understand view of your media coverage, so you can act with confidence.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== MEDIA SOURCES ===== -->
+    <section class="border-t border-line bg-surface">
+      <div class="container-mp py-14 lg:py-16">
+        <p class="eyebrow mb-6">We monitor across all key media sources</p>
+        <ul class="grid grid-cols-2 gap-6 text-center sm:grid-cols-3 lg:grid-cols-5">
+          <li class="flex flex-col items-center gap-3"><span class="icon-chip-solid"><svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="13" rx="2"/><path d="M8 21h8"/></svg></span><span class="text-sm font-semibold">TV News</span><span class="-mt-1.5 text-xs text-muted">55+ Channels<br/>National, regional and business news channels</span></li>
+          <li class="flex flex-col items-center gap-3"><span class="icon-chip-solid"><svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></span><span class="text-sm font-semibold">Online News</span><span class="-mt-1.5 text-xs text-muted">500+ Portals<br/>Leading news websites and digital publications</span></li>
+          <li class="flex flex-col items-center gap-3"><span class="icon-chip-solid"><svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v4M8 21h8"/></svg></span><span class="text-sm font-semibold">Radio</span><span class="-mt-1.5 text-xs text-muted">Major FM<br/>Top FM radio stations and talk shows</span></li>
+          <li class="flex flex-col items-center gap-3"><span class="icon-chip-solid"><svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg></span><span class="text-sm font-semibold">YouTube</span><span class="-mt-1.5 text-xs text-muted">Videos &amp; Channels<br/>News clips, panel shows and branded content</span></li>
+          <li class="col-span-2 flex flex-col items-center gap-3 sm:col-span-1"><span class="icon-chip-solid"><svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></span><span class="text-sm font-semibold">Social Media</span><span class="-mt-1.5 text-xs text-muted">X, Facebook, Instagram<br/>Real-time discussions and public conversations</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section id="contact" class="bg-white py-16">
+      <div class="container-mp">
+        <div class="relative overflow-hidden rounded-xl2 bg-navy px-7 py-10 text-white sm:px-10">
+          <div class="absolute inset-0 opacity-40" style="background:radial-gradient(700px 300px at 85% 120%, #1C3252 0%, transparent 60%);" aria-hidden="true"></div>
+          <div class="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            <div>
+              <p class="eyebrow eyebrow-light mb-3">Get Started</p>
+              <h2 class="text-2xl sm:text-3xl">Turn media coverage into<br/><span class="text-accent">meaningful insights.</span></h2>
+              <p class="mt-3 max-w-lg text-sm text-white/70">Get complete visibility across TV, Radio, Online News, YouTube and Social Media, with a partner you can trust.</p>
+            </div>
+            <a href="mailto:hello@mediaplanet.example" class="btn-primary w-fit px-6 py-3 text-base">Request a Demo
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-ink text-white/80">
+    <div class="container-mp flex flex-col items-center justify-between gap-6 py-8 md:flex-row">
+      <a href="/index.html" class="flex items-center gap-2.5" aria-label="Media Planet home">
+        <img src="/assets/img/logo.svg" alt="" width="32" height="32" class="h-8 w-8" />
+        <span class="text-base font-extrabold text-white">MEDIA PLANET</span>
+      </a>
+      <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm" aria-label="Footer">
+        <a href="/index.html" class="hover:text-white">Home</a>
+        <a href="/news-monitoring.html" class="hover:text-white">News Monitoring</a>
+        <a href="/ad-monitoring.html" class="hover:text-white">Ad Monitoring</a>
+        <a href="/news-translation.html" class="hover:text-white">News Translation</a>
+        <a href="/media-landscape.html" class="hover:text-white">Media Landscape</a>
+        <a href="/resources.html" class="hover:text-white">Resources</a>
+        <a href="/about.html" class="hover:text-white">About</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#" aria-label="LinkedIn" class="grid h-9 w-9 place-items-center rounded-full bg-white/10 hover:bg-white/20"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.65 21 11 21 14.1V21h-4v-6.1c0-1.45-.03-3.32-2.02-3.32-2.02 0-2.33 1.58-2.33 3.21V21H9z"/></svg></a>
+        <a href="#" aria-label="X" class="grid h-9 w-9 place-items-center rounded-full bg-white/10 hover:bg-white/20"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5-6.6L5.3 22H2l8-9.2L1.5 2h6.9l4.6 6.1zm-2.4 18h1.7L7.6 3.8H5.8z"/></svg></a>
+        <a href="#" aria-label="YouTube" class="grid h-9 w-9 place-items-center rounded-full bg-white/10 hover:bg-white/20"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.4-.4-5a2.7 2.7 0 0 0-1.9-1.9C18.9 4.7 12 4.7 12 4.7s-6.9 0-8.7.4A2.7 2.7 0 0 0 1.4 7C1 8.6 1 12 1 12s0 3.4.4 5a2.7 2.7 0 0 0 1.9 1.9c1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4a2.7 2.7 0 0 0 1.9-1.9c.4-1.6.4-5 .4-5zM9.8 15.3V8.7l5.7 3.3z"/></svg></a>
+      </div>
+    </div>
+    <div class="container-mp border-t border-white/10 py-4 text-center text-xs text-white/50">© <span id="year">2026</span> Media Planet. All rights reserved.</div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

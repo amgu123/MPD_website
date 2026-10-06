@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------
+   Media Planet — base layer
+---------------------------------------------------------------- */
+@layer base {
+  :root {
+    --color-accent: #f5c518;
+    --color-ink: #0e1a2b;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-ink font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-extrabold tracking-tight;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-yellow ring-offset-2 ring-offset-white;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-mp {
+    @apply mx-auto w-full max-w-[1280px] px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-brand-yellow text-ink hover:bg-brand-yellow-600 focus-visible:ring-brand-yellow;
+  }
+  .btn-dark {
+    @apply btn bg-ink text-white hover:bg-ink-soft focus-visible:ring-ink;
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-white text-ink hover:bg-surface focus-visible:ring-ink;
+  }
+
+  /* Eyebrow label with yellow tick */
+  .eyebrow {
+    @apply inline-flex items-center text-xs font-bold uppercase tracking-[0.16em] text-muted;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply mr-2 h-0.5 w-6 bg-brand-yellow;
+  }
+  .eyebrow-light {
+    @apply text-white/60;
+  }
+
+  /* Cards */
+  .card {
+    @apply rounded-xl2 border border-line bg-white shadow-card;
+  }
+
+  /* Nav */
+  .nav-link {
+    @apply rounded-md px-1 py-1 text-sm font-medium text-ink/75 transition-colors hover:text-ink;
+  }
+  .nav-link[aria-current="page"] {
+    @apply font-semibold text-ink;
+  }
+  .nav-link-active-underline[aria-current="page"] {
+    @apply relative;
+  }
+  .nav-link-active-underline[aria-current="page"]::after {
+    content: "";
+    @apply absolute -bottom-1 left-0 h-0.5 w-full bg-brand-yellow;
+  }
+
+  /* Feature icon chip (soft yellow circle) */
+  .icon-chip {
+    @apply grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-yellow/20 text-ink;
+  }
+  .icon-chip-solid {
+    @apply grid h-12 w-12 shrink-0 place-items-center rounded-full bg-brand-yellow text-ink;
+  }
+
+  /* Gradient heading accent (yellow word) */
+  .text-accent {
+    @apply text-brand-yellow;
+  }
+}

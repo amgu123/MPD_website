@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" role="img" aria-label="Living room with a TV playing a brand ad and a laptop showing the ad monitoring dashboard">
+  <!-- room -->
+  <rect width="720" height="540" fill="#EFE7DB"/>
+  <rect y="360" width="720" height="180" fill="#D9C9B4"/>
+  <!-- console -->
+  <rect x="0" y="392" width="720" height="24" fill="#C2AD92"/>
+  <rect x="40" y="416" width="640" height="70" rx="6" fill="#B79A78"/>
+
+  <!-- wall-mounted TV -->
+  <rect x="360" y="40" width="330" height="200" rx="10" fill="#111417"/>
+  <rect x="372" y="52" width="306" height="176" rx="5" fill="url(#scene)"/>
+  <defs>
+    <linearGradient id="scene" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8FB8E0"/><stop offset="55%" stop-color="#4B7FB0"/><stop offset="100%" stop-color="#243B2E"/></linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6FA0CC"/><stop offset="100%" stop-color="#3C5E7A"/></linearGradient>
+    <linearGradient id="dash" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F5A623"/><stop offset="100%" stop-color="#7FB2E6"/></linearGradient>
+  </defs>
+  <!-- mountains + lake on TV -->
+  <path d="M372 168l70-60 44 34 60-46 132 84v48H372z" fill="#3A5A46"/>
+  <rect x="372" y="176" width="306" height="52" fill="url(#lake)"/>
+  <!-- Your Brand card -->
+  <rect x="392" y="78" width="112" height="66" rx="6" fill="#F3EEE4"/>
+  <text x="404" y="106" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#1B2430">Your Brand</text>
+  <text x="404" y="126" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#5C5C5C">A BRIGHTER</text>
+  <text x="404" y="138" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#5C5C5C">TOMORROW</text>
+  <!-- progress bar -->
+  <rect x="384" y="214" width="282" height="4" rx="2" fill="#ffffff" opacity="0.6"/>
+  <rect x="384" y="214" width="150" height="4" rx="2" fill="#F5C518"/>
+  <circle cx="534" cy="216" r="5" fill="#F5C518"/>
+  <!-- Ad badge -->
+  <rect x="620" y="56" width="52" height="20" rx="5" fill="#0E0E0E"/>
+  <text x="646" y="70" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">Ad 00:15</text>
+
+  <!-- laptop -->
+  <g>
+    <rect x="300" y="250" width="360" height="220" rx="12" fill="#1B2430"/>
+    <rect x="312" y="262" width="336" height="196" rx="6" fill="#F6F8FB"/>
+    <!-- top bar -->
+    <rect x="312" y="262" width="336" height="26" rx="6" fill="#ffffff"/>
+    <circle cx="330" cy="275" r="6" fill="#F5C518"/>
+    <text x="344" y="279" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1B2430">Ad Monitoring</text>
+    <rect x="600" y="268" width="40" height="14" rx="4" fill="#F5C518"/>
+    <text x="620" y="279" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#1B2430" text-anchor="middle">Export</text>
+    <!-- sidebar -->
+    <rect x="312" y="288" width="86" height="170" fill="#ffffff"/>
+    <rect x="322" y="300" width="66" height="14" rx="4" fill="#FDF3D0"/>
+    <text x="330" y="311" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#1B2430">Overview</text>
+    <g font-family="Arial, sans-serif" font-size="9" fill="#7A828C">
+      <text x="330" y="332">Captures</text>
+      <text x="330" y="352">Reports</text>
+      <text x="330" y="372">Campaigns</text>
+    </g>
+    <!-- table rows with thumbnails -->
+    <g>
+      <rect x="406" y="300" width="234" height="14" rx="3" fill="#EEF1F5"/>
+      <g font-family="Arial, sans-serif" font-size="7" fill="#7A828C">
+        <text x="430" y="310">Date &amp; Time</text><text x="500" y="310">Ad Frame</text><text x="560" y="310">Campaign</text><text x="620" y="310">Type</text>
+      </g>
+      <!-- row 1 -->
+      <rect x="500" y="320" width="26" height="18" rx="2" fill="url(#dash)"/>
+      <text x="430" y="332" font-family="Arial, sans-serif" font-size="7" fill="#1B2430">12 Nov</text>
+      <text x="560" y="332" font-family="Arial, sans-serif" font-size="7" fill="#1B2430">Brand Campaign</text>
+      <rect x="616" y="326" width="20" height="9" rx="2" fill="#FDE9A6"/>
+      <!-- row 2 -->
+      <rect x="500" y="346" width="26" height="18" rx="2" fill="url(#dash)"/>
+      <text x="430" y="358" font-family="Arial, sans-serif" font-size="7" fill="#1B2430">12 Nov</text>
+      <text x="560" y="358" font-family="Arial, sans-serif" font-size="7" fill="#1B2430">Product Launch</text>
+      <rect x="616" y="352" width="24" height="9" rx="2" fill="#E3E7EC"/>
+      <!-- row 3 -->
+      <rect x="500" y="372" width="26" height="18" rx="2" fill="url(#dash)"/>
+      <text x="430" y="384" font-family="Arial, sans-serif" font-size="7" fill="#1B2430">11 Nov</text>
+      <text x="560" y="384" font-family="Arial, sans-serif" font-size="7" fill="#1B2430">Brand Campaign</text>
+      <rect x="616" y="378" width="20" height="9" rx="2" fill="#FDE9A6"/>
+    </g>
+    <!-- laptop base -->
+    <path d="M276 470h408l22 22H254z" fill="#0E141C"/>
+  </g>
+
+  <!-- mug + plant -->
+  <ellipse cx="250" cy="470" rx="34" ry="12" fill="#00000015"/>
+  <rect x="222" y="430" width="52" height="44" rx="8" fill="#E7E0D4"/>
+  <path d="M274 440h10a10 10 0 0 1 0 20h-10z" fill="none" stroke="#E7E0D4" stroke-width="6"/>
+  <g>
+    <rect x="646" y="430" width="46" height="46" rx="6" fill="#C2724A"/>
+    <path d="M669 430c-14-8-20-26-8-40 4 14 14 18 8 40z" fill="#4E7C4A"/>
+    <path d="M669 432c12-10 30-8 34 6-14 2-22 10-34 -6z" fill="#5E9257"/>
+  </g>
+</svg>

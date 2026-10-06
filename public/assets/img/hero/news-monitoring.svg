@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540" role="img" aria-label="News studio broadcast with a mentions trend panel">
+  <rect width="720" height="540" fill="#10161E"/>
+  <!-- studio wall screens -->
+  <g opacity="0.55">
+    <rect x="40" y="40" width="130" height="86" rx="6" fill="#243244"/>
+    <rect x="185" y="40" width="130" height="86" rx="6" fill="#243244"/>
+    <rect x="405" y="40" width="130" height="86" rx="6" fill="#243244"/>
+    <rect x="550" y="40" width="130" height="86" rx="6" fill="#243244"/>
+  </g>
+  <!-- desk -->
+  <rect x="0" y="430" width="720" height="110" fill="#1B2735"/>
+  <!-- anchor -->
+  <circle cx="220" cy="300" r="70" fill="#3A4A5C"/>
+  <circle cx="220" cy="270" r="30" fill="#D8DFE7"/>
+  <path d="M164 360a56 44 0 0 1 112 0z" fill="#D8DFE7"/>
+  <!-- NEWS bug -->
+  <rect x="120" y="200" width="96" height="34" rx="4" fill="#C21C28"/>
+  <text x="168" y="224" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">NEWS</text>
+
+  <!-- Mentions Trend panel -->
+  <g>
+    <rect x="330" y="220" width="350" height="250" rx="14" fill="#ffffff"/>
+    <text x="356" y="256" font-family="Arial, sans-serif" font-size="17" font-weight="800" fill="#1B2430">Mentions Trend</text>
+    <text x="356" y="278" font-family="Arial, sans-serif" font-size="12" fill="#9AA3AD">Total Mentions</text>
+    <text x="356" y="300" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#1B2430">1,246</text>
+    <text x="600" y="256" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1FA463">+24%</text>
+    <!-- bars -->
+    <g fill="#2F6BE0">
+      <rect x="356" y="392" width="22" height="48" rx="3"/>
+      <rect x="388" y="372" width="22" height="68" rx="3"/>
+      <rect x="420" y="348" width="22" height="92" rx="3"/>
+      <rect x="452" y="378" width="22" height="62" rx="3"/>
+      <rect x="484" y="330" width="22" height="110" rx="3"/>
+      <rect x="516" y="360" width="22" height="80" rx="3" fill="#F5C518"/>
+    </g>
+    <!-- legend -->
+    <g font-family="Arial, sans-serif" font-size="12">
+      <circle cx="576" cy="330" r="5" fill="#2F6BE0"/><text x="590" y="334" fill="#5C5C5C">TV News</text><text x="656" y="334" font-weight="700" fill="#1B2430">420</text>
+      <circle cx="576" cy="356" r="5" fill="#F5C518"/><text x="590" y="360" fill="#5C5C5C">Social</text><text x="656" y="360" font-weight="700" fill="#1B2430">336</text>
+      <circle cx="576" cy="382" r="5" fill="#1FA463"/><text x="590" y="386" fill="#5C5C5C">Radio</text><text x="656" y="386" font-weight="700" fill="#1B2430">120</text>
+      <circle cx="576" cy="408" r="5" fill="#C21C28"/><text x="590" y="412" fill="#5C5C5C">YouTube</text><text x="656" y="412" font-weight="700" fill="#1B2430">110</text>
+    </g>
+  </g>
+</svg>
